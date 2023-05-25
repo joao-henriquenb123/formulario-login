@@ -1,0 +1,40 @@
+body,
+p {
+     margin: 0;
+}
+
+.formulario {
+    height: auto;
+    width: 500pt;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.campo-fora {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+
+.form-button {
+     padding: 10px 0;
+     width: 80%;
+     background-color: black;
+     color: white;
+     border-radius: 8px;
+     outline: none;
+     border: none;
+     align-self: center;
+     cursor: pointer;
+}
